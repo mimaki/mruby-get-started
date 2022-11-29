@@ -4,7 +4,7 @@ MRuby::Build.new do |conf|
   # include the default GEMs
   conf.gembox 'default'
   # Use mrbgems
-  conf.gem :git => 'https://github.com/mattn/mruby-onig-regexp.git'
+  conf.gem :git => 'https://github.com/iij/mruby-regexp-prce.git'
 
   # C compiler settings
   conf.cc.defines = %w(MRB_UTF8_STRING)
